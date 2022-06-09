@@ -1,7 +1,7 @@
 package com.lauraCR.examen.junio;
 
 
-class Bicycle {  
+class Bike {//ya he cambiado el nombre de Bicycle a Bike  
   int speed;
   int gear;
     
