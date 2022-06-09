@@ -1,29 +1,34 @@
 package com.lauraCR.examen.junio;
 
 
-class Bike {//ya he cambiado el nombre de Bicycle a Bike  
+class Bike implements Vehicle {//ya he cambiado el nombre de Bicycle a Bike  
   int speed;
   int gear;
     
-  public void changeGear(int newGear){     
+  @Override
+public void changeGear(int newGear){     
       gear = newGear;
   }
     
   
-  public void speedUp(int increment){
+  @Override
+public void speedUp(int increment){
       speed = speed + increment;
   }
     
-  public void applyBrakes(int decrement){     
+  @Override
+public void applyBrakes(int decrement){     
       speed = speed - decrement;
   }
     
-  public void printStates() {
+  @Override
+public void printStates() {
       System.out.println("speed: " + speed
           + " gear: " + gear);
   }
 
-  public int getSpeed() {
+  @Override
+public int getSpeed() {
 		return this.speed;
 	}
   
