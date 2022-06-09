@@ -23,7 +23,10 @@ class Bicycle {
           + " gear: " + gear);
   }
 
-
+  public int getSpeed() {
+		return this.speed;
+	}
+  
 @Override
 public String toString() {
 	return "Bicycle [speed=" + speed + ", gear=" + gear + "]";
