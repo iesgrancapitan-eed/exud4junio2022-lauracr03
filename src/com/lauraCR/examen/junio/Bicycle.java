@@ -1,4 +1,4 @@
-package com.examen.junio;
+package com.lauraCR.examen.junio;
 
 
 class Bicycle {  
